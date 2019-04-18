@@ -8,8 +8,8 @@ MODDIR=${0%/*}
 
 # This script will be executed in late_start service mode
 
-# Wait..
-sleep 30
+
+
 # Virtual memory tweaks
 stop perfd
 echo '0' > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
